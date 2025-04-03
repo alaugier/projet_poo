@@ -215,11 +215,11 @@ while response=='O':
             library_back_to_list_of_dicts = library.load_from_mongo()
             library = library.reload_library(library_back_to_list_of_dicts)
             user_keyword = input("Entrer un mot clé :")
-            library.search(user_keyword)
+            print(library.search(user_keyword))
     else:
         library_back_to_list_of_dicts = library.load_from_mongo()
         library = library.reload_library(library_back_to_list_of_dicts)
-        library.display_all()
+        print(library.display_all())
   
     response = input("Voulez-vous effectuer une autre action (O/N) :")
 
