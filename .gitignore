@@ -17,7 +17,8 @@ __pycache__/
 *.ipynb
 
 # Folder
-PATH_TO_CHROME_PROFILE/
+Archives/
+
 
 # special files
 Quickstart_API_Donnees_foncieres.ipynb
